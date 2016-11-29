@@ -1,1 +1,2 @@
-bla
+#The Attack
+The provided "LosT.exe" gets as input a key with length 32 characters{0-9,a-f}.</br>For each wrong character on the key, the output is '0' and for each right is '1' just like the image above.</br><img src="pictures/givenEXE.JPG" alt="lorem" width="700" height="255" /></br></br>To crack this key we need to change every character until its output is '1'.</br>I coded in c# a bruteforcer to do this job.
